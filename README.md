@@ -16,7 +16,12 @@ node イメージをもとに Nestjs/cli をインストールしています。
 このリポジトリをもとに環境構築する場合は下記の記事を参考にしてください<br>
 https://zenn.dev/senri/articles/331162304a78e0
 <br>
-基本的には docker compose up -d --build コマンドで環境構築を完了することができると思われます。<br>
+基本的には
+
+```
+docker compose up -d --build
+```
+コマンドで環境構築を完了することができると思われます。<br>
 できなかったらすいません。<br>
 <br>
 また、マイグレーションコマンドを npm script にて簡便にしています。<br>
