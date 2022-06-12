@@ -6,7 +6,7 @@ const options: MysqlConnectionOptions = {
   port: 3306,
   username: 'user',
   password: 'password',
-  database: 'anibo',
+  database: 'develop',
   entities: ['dist/src/**/*.entity.js'],
   migrations: ['dist/migration/**/*.migration.js'],
   cli: {
