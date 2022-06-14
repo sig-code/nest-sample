@@ -8,9 +8,9 @@ const options: MysqlConnectionOptions = {
   password: 'password',
   database: 'develop',
   entities: ['dist/src/**/*.entity.js'],
-  migrations: ['dist/migration/**/*.migration.js'],
+  migrations: ['dist/src/migration/**/*.js'],
   cli: {
-    migrationsDir: 'migration',
+    migrationsDir: 'src/migration',
   },
 };
 

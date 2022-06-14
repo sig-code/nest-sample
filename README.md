@@ -25,10 +25,11 @@ docker compose up -d --build
 できなかったらすいません。<br>
 <br>
 また、マイグレーションコマンドを npm script にて簡便にしています。<br>
+基本的にDockerコンテナ内で走らせます<br>
 マイグレーションファイルを作成するとき<br>
 
 ```
-npm run migration:generate [-n 名前]
+npm run migration:generate [名前]
 ```
 
 <br>
